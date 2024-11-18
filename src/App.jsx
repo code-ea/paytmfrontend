@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-        <BrowserRouter>
+        <BrowserRouter basename="/paytmfrontend">
           <Routes>
             <Route path="/signin" element={<Signin/>}/>
             <Route path="/signup" element={<Signup/>}/>
